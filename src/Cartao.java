@@ -154,6 +154,6 @@ public class Cartao {
 
     @Override
     public String toString() {
-        return "Cartao{" + "nomeBandeiraCartao=" + nomeBandeiraCartao + ", dataValidade=" + dataValidade + ", codigoSeguranca=" + codigoSeguranca + ", nomeImpresso=" + nomeImpresso + ", numeroCartao=" + numeroCartao + ", tipoCartao=" + tipoCartao + ", ativo=" + ativo + ", limite=" + limite + '}';
+        return "Cartao {" + "nomeBandeiraCartao=" + nomeBandeiraCartao + ", dataValidade=" + dataValidade + ", codigoSeguranca=" + codigoSeguranca + ", nomeImpresso=" + nomeImpresso + ", numeroCartao=" + numeroCartao + ", tipoCartao=" + tipoCartao + ", ativo=" + ativo + ", limite=" + limite + '}' + "\n";
     }
 }
