@@ -28,6 +28,6 @@ public class ClientePessoaFisica extends Usuario {
 
 	@Override
 	public String toString() {
-		return "ClientePessoaFisica [cpf=" + cpf + ", rg=" + rg + "," + super.toString() + "]";
+		return "ClientePessoaFisica {cpf=" + cpf + ", rg=" + rg + ", " + super.toString() + "}";
 	}
 }

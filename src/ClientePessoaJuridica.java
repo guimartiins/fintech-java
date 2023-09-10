@@ -29,7 +29,6 @@ public class ClientePessoaJuridica extends Usuario {
 
 	@Override
 	public String toString() {
-		return "ClientePessoaJuridica [cnpj=" + cnpj + ", razaoSocial=" + razaoSocial + ", "
-				+ super.toString() + "]";
+		return "ClientePessoaJuridica {cnpj=" + cnpj + ", razaoSocial=" + razaoSocial + ", " + super.toString() +"}";
 	}
 }
